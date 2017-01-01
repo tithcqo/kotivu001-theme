@@ -1,0 +1,47 @@
+## mako
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%namespace name='static' file='../static_content.html'/>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Honor Code")}</%block>
+
+<div class="page-heading">
+  <h1>${_("Honor Code")}</h1>
+</div>
+<section class="static-content">
+  <div class="grid-manual grid-container">
+    <div class="inner-container">
+      <div class="row">
+        <div class="col col-12 sm-col-12 md-col-12">
+          <h2>COLLABORATION POLICY</h2>
+
+          <p>By enrolling in a course on Kotivu, you are joining a special worldwide community of learners. The aspiration of Kotivu is to provide anyone in the world who has the motivation and ability to engage coursework from the Members providing courses on the Site the opportunity to attain the best educational experience that internet technology enables. You are part of the community who will help Kotivu achieve this goal.</p>
+
+          <p>Kotivu depends upon your motivation to learn the material and to do so with honesty. In order to participate in Kotivu, you must agree to the Honor Code below and any additional terms specific to a class. This Honor Code, and any additional terms, will be posted on each class website.</p>
+
+          <h2>Kotivu HONOR CODE PLEDGE</h2>
+          <p>By enrolling in an Kotivu course, I agree that I will:</p>
+
+          <ul>
+              <li>Complete all mid-terms and final exams with my own work and only my own work. I will not submit the work of any other person</li>
+              <li>Maintain only one user account and not let anyone else use my username and/or password.</li>
+              <li>Not engage in any activity that would dishonestly improve my results, or improve or hurt the results of others.</li>
+              <li>Not post answers to problems that are being used to assess student performance.</li>
+          </ul>
+
+          <p>Unless otherwise indicated by the instructor of an Kotivu course, learners on Kotivu are encouraged to:</p>
+          <ul>
+              <li>Collaborate with others on the lecture videos, exercises, homework and labs.</li>
+              <li>Discuss with others general concepts and materials in each course.</li>
+              <li>Present ideas and written work to fellow Kotivu learners or others for comment or criticism.</li>
+          </ul>
+
+          <h2>CHANGING THE HONOR CODE</h2>
+
+          <p>Please note that we review and may make changes to this Honor Code from time to time. Any changes to this Honor Code will be effective immediately upon posting on this page, with an updated effective date. By accessing the Site after any changes have been made, you signify your agreement on a prospective basis to the modified Honor Code and any changes contained therein. Be sure to return to this page periodically to ensure familiarity with the most current version of this Honor Code.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

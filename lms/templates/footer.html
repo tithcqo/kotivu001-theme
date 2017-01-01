@@ -1,0 +1,26 @@
+## mako
+<%page expression_filter="h"/>
+<%namespace name='static' file='static_content.html'/>
+
+<section class="footer-main">
+  <div class="grid-manual grid-container">
+    <div class="row">
+
+      <div class="col col-9 sm-col-9 md-col-9">
+          <ul>
+            <li><a href="http://www.kotivu.ng/">Go Back Home</a></li>
+            <li><a href="http://www.kotivu.ng/platforms.html">Other Platforms</a></li>
+            <li><a href="http://www.kotivu.ng/contact.html">Contact Us</a></li>
+            <li><a href="/tos">Terms of Service</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+          </ul>
+      </div>
+
+      <div class="col col-3 sm-col-3 md-col-3 open-edx-logo">
+        <a href="http://www.kotivu.ng/payment.html">
+          <img src="${static.url('images/payment.png')}" alt="Payment" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
